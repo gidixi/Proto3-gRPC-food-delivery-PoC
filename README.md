@@ -82,3 +82,17 @@ Le *options* aggiungono metadati (non logica). Per gRPC non devi settare nulla d
 * Un **file `.proto`** condiviso.
 
 
+
+---
+
+## 🌐 Frontend (Vue 3 + TypeScript)
+
+Nella cartella `frontend/` trovi un'applicazione Vue 3 + TypeScript basata su Vite, pensata come UI minimale per il PoC.
+
+Per avviarla in sviluppo:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
