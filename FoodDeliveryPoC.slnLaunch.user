@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Avvio Mult",
+    "Projects": [
+      {
+        "Path": "FoodDeliveryPoC.Server\\FoodDeliveryPoC.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FoodDeliveryPoC.Client\\FoodDeliveryPoC.Client.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

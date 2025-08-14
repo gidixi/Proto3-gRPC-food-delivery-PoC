@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryPoC.Server", "FoodDeliveryPoC.Server\FoodDeliveryPoC.Server.csproj", "{C28B4A92-1154-4698-A126-F975EC7B5826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{6C83A596-D32D-B35F-00DD-F0C99B673980}"
+	ProjectSection(SolutionItems) = preProject
+		FoodDeliveryPoC.Protos\food_delivery.proto = FoodDeliveryPoC.Protos\food_delivery.proto
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDeliveryPoC.Client", "FoodDeliveryPoC.Client\FoodDeliveryPoC.Client.csproj", "{D2034A1B-6519-405F-BCBB-117728BC62D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C28B4A92-1154-4698-A126-F975EC7B5826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28B4A92-1154-4698-A126-F975EC7B5826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28B4A92-1154-4698-A126-F975EC7B5826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28B4A92-1154-4698-A126-F975EC7B5826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2034A1B-6519-405F-BCBB-117728BC62D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2034A1B-6519-405F-BCBB-117728BC62D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2034A1B-6519-405F-BCBB-117728BC62D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2034A1B-6519-405F-BCBB-117728BC62D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02B59714-4355-4785-8E9C-83F20E2962DC}
+	EndGlobalSection
+EndGlobal

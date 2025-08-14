@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "FoodDelivery.Protos";
+
+message OrderRequest {
+  string customer_id = 1;
+  string restaurant_id = 2;
+  repeated string items = 3;
+}
+
+message OrderConfirmation {
+  string order_id = 1;
+  string status = 2;
+}
+
+message OrderStatus {
+  string order_id = 1;
+  string status = 2;
+}
+
+service FoodDeliveryService {
+  // Unary: crea ordine e ritorna conferma
+  rpc PlaceOrder (OrderRequest) returns (OrderConfirmation);
+
+  // Server streaming: manda aggiornamenti di stato
+  rpc TrackOrder (OrderConfirmation) returns (stream OrderStatus);
+}
